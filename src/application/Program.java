@@ -4,25 +4,34 @@ import java.util.Locale;
 
 import java.util.Scanner;
 
-import entities.IntrProgOrientObjProduct;
+import entities.Product;
 
-public class IntrProgOrientObjProgram {
+public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		IntrProgOrientObjProduct product = new IntrProgOrientObjProduct();
+		Product product = new Product();
+		
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
-		System.out.print("Quantity in stock: ");
-		product.quantity = sc.nextInt();
+		double price = sc.nextDouble();
+		//System.out.print("Quantity in stock: ");
+		//int quantity = sc.nextInt();
+	    product = new Product(name, price);
+	    
+	    product.setName("computer");
+	    System.out.println("Updated name: " + product.getName());
+	    product.setPrice(1200.00);
+	    System.out.println("Updated name: " + product.getPrice());
+	    
 		System.out.println();
 		System.out.println("Product data: " + product);
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");
-		int quantity = sc.nextInt();
+		 int quantity = sc.nextInt();
+		
 		product.addProducts(quantity);
 		System.out.println();
 		System.out.println("Updated data: " + product);
@@ -33,5 +42,6 @@ public class IntrProgOrientObjProgram {
 		System.out.println();
 		System.out.println("Updated data: " + product);
 		sc.close();
+
 	}
 }
