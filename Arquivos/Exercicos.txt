@@ -1,0 +1,137 @@
+﻿---------------------09/09/2020-------------------------------------
+1. Introdução - OK
+2. Conceitos de programação - OK
+3. Introdução à linguagem Java - OK
+
+---------------------15/09/2020--------------------------------------
+4. Estrutura sequencial
+	7. Processamento de dados em Java, Casting - ReVer a Aula.
+
+---------------------28/09/2020--------------------------------------
+4. Estrutura sequencial
+	10. Funções matemáticas em Java
+		java.lang.Math
+
+5. Estrutura condicional
+	5. Estrutura condicional (if-else)
+
+---------------------29/09/2020--------------------------------------
+5. Estrutura condicional
+	6. AVISO exercícios para iniciantes PARTE  2
+	7. Exercícios para Iniciantes - PARTE 2
+	8. Sintaxe opcional - operadores de atribuição cumulativa
+	9. Sintaxe opcional - switch-case
+---------------------00/00/2020--------------------------------------
+6. Estruturas repetitivas
+	1. Visão geral do capítulo
+	3. Como utilizar o DEBUG no Eclipse (execução passo a passo)
+	4. Estrutura repetitiva enquanto (while)
+	5. Teste de mesa com estrutura repetitiva enquanto
+	6. Exercícios de teste de mesa com while
+	7. AVISO exercícios para iniciantes PARTE  3
+	8. Exercícios para Iniciantes - PARTE 3
+	9. Estrutura repetitiva para (for)
+	10. Teste de mesa com estrutura repetitiva para
+	11. Exercícios de testes de mesa com for
+	12. AVISO exercícios para iniciantes PARTE 4
+	14. Estrutura repetitiva faça-enquanto (do-while)
+
+7. Outros tópicos básicos sobre Java
+	1. Material de apoio do capítulo
+	2. Restrições e convenções para nomes
+	3. Operadores bitwise
+	4. Funções interessantes para String
+	5. Comentários em Java (básico)
+	6. Funções (sintaxe)
+8. Introdução à Programação Orientada a Objetos
+	1. Visão geral do capítulo
+	3. Resolvendo um problema sem orientação a objetos
+---------------------01/10/2020--------------------------------------
+8. Introdução à Programação Orientada a Objetos.
+	4. Criando uma classe com três atributos para representar melhor o triângulo
+	5. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+	6. Começando a resolver um segundo problema exemplo.
+	7. Object e toString
+
+---------------------02/10/2020--------------------------------------
+8. Introdução à Programação Orientada a Objetos.
+	8. Finalizando o programa
+
+---------------------05/10/2020--------------------------------------
+8. Introdução à Programação Orientada a Objetos.
+	9. Exercícios de fixação
+	10. Membros estáticos - Parte 1
+	11. Membros estáticos - Parte 2
+
+
+---------------------07/10/2020--------------------------------------
+PROXIMA AULA
+8. Introdução à Programação Orientada a Objetos.
+	12. Exercício de fixação
+
+---------------------13/10/2020--------------------------------------
+9. Construtores, palavra this, sobrecarga, encapsulamento.
+	1. Visão geral do capítulo.		
+	3. Construtores.
+	4. Palavra this.
+		# (This) serve para difernecia o atributo do objeto do paramentro do construtor.
+		# This é uma referência para o proprio objeto.
+	5. Sobrecarga.
+	6. Encapsulamento.
+	7. Gerando automaticamente construtores, getters e setters com Eclipse.
+	8. Modificadores de acesso.
+		privete o menbro so pode ser acessado na mesma classe
+	9. Exercício de fixação
+
+
+---------------------14/10/2020--------------------------------------
+9. Construtores, palavra this, sobrecarga, encapsulamento.
+	10. Correção do exercício de fixação - Parte 1
+	11. Correção do exercício de fixação - Parte 2
+10. Comportamento de memória, arrays, listas
+	1. Visão geral do capítulo
+	3. Tipos referência vs. tipos valor
+	4. Desalocação de memória - garbage collector e escopo local
+---------------------16/10/2020--------------------------------------
+PROXIMA AULA
+10. Comportamento de memória, arrays, listas
+	5. Vetores - Parte 1
+	
+---------------------19/10/2020--------------------------------------
+10. Comportamento de memória, arrays, listas
+	6. Vetores - Parte 2
+	7. Exercício de fixação
+	8. Boxing, unboxing e wrapper classes
+	9. Laço for each
+	10. Listas - Parte 1
+	11. Listas - Parte 2
+	12. Exercício proposto
+
+---------------------22/10/2020--------------------------------------
+10. Comportamento de memória, arrays, listas
+	13. Matrizes
+	15. Exercício proposto
+
+---------------------00/10/2020--------------------------------------
+PROXIMA AULA
+11. Tópicos especiais em Java
+
+---------------------00/10/2020--------------------------------------
+PROXIMA AULA
+
+
+
+#####################################################################
+Atalhos no Eclipse:
+Ctrl+Shift+B = breakpoint
+Ctrl+Shift+F = Endenta o codigo
+Ctrl+Shift+O = Importa 
+Ctrl+Shift+# = Commit
+
+#####################################################################
+Comandos no Git
+git init - para inicializar (Start)
+git init git remote add origin https://github.com/acenelio/chess-system-java.git -  (clonar o codigo da pagina do git)
+git pull origin master
+git add . 
+git commit -m "Project created" git push -u origin master 
