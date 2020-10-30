@@ -112,12 +112,36 @@ PROXIMA AULA
 	13. Matrizes
 	15. Exercício proposto
 
----------------------00/10/2020--------------------------------------
+---------------------28/10/2020--------------------------------------
 PROXIMA AULA
 11. Tópicos especiais em Java
-
+	1. Material de apoio do capítulo
+	2. Trabalhando com datas - Date
+	3. Manipulando um Date com Calendar
+12. Bônus - nivelamento sobre Git e Github
+	1. Visão geral do capítulo Git e Github
+	3. O que é Git e Github
+	4. Instalação do Git no Windows
+	
+---------------------30/10/2020--------------------------------------
+12. Bônus - nivelamento sobre Git e Github
+	5. Demo - criando um novo projeto
+	6. Arquivo .gitignore
+	7. Demo - trabalhando com um projeto existente
+	8. Importante entender - a sequência de commits deve ser respeitada
+	9. Kit de primeiros socorros
+13. Enumerações, composição
+	1. Visão geral do capítulo Enumerações e Composição
+!?	3. Enumerações
+	4. Vamos falar um pouco sobre design
+	5. Composição
 ---------------------00/10/2020--------------------------------------
 PROXIMA AULA
+
+13. Enumerações, composição
+	6. Exercício resolvido 1 - Parte 1
+	7. Exercício resolvido 1 - Parte 2
+	
 
 
 
@@ -132,6 +156,8 @@ Ctrl+Shift+# = Commit
 Comandos no Git
 git init - para inicializar (Start)
 git init git remote add origin https://github.com/acenelio/chess-system-java.git -  (clonar o codigo da pagina do git)
-git pull origin master
-git add . 
+git pull origin master (atualiza o projeto)
+git add . (Na area de stage)
 git commit -m "Project created" git push -u origin master 
+git log --oneline (mostra atualização do commit)
+git push (Salva Projeto)
